@@ -1,0 +1,316 @@
+body{
+	/* background:url("images/pexels-peter-fazekas-1170576.jpg");  */
+	margin:0;
+	font-family:segoe UI;
+}
+   a{
+		transition: all 2s ease 0s;
+   }
+/*===>>>header area start<<<====*/
+
+.navigation-area .navbar-inverse{
+  background:#194e5aad;
+}
+
+
+
+.header-area{
+
+ background:url("images/download 4.jpg");
+ background-repeat:no-repeat;
+ background-size:cover;
+ background-position:center;
+ width:100%;
+ height:100vh;
+ }
+
+
+.main-container{
+ width:98%;
+ margin:auto;
+ text-align:center;
+ 
+}
+header h2{
+   background:rgba(3, 169, 244 ,0.6 );
+  color:#F4511E;
+  word-spacing:10px;
+  letter-spacing:10px;
+  display:inline-block;
+  text-align:center;
+  padding:5px;
+  border-radius:20px;
+ 
+  
+}
+header p{
+display:inline-block;
+ background:rgba(3, 169, 244 ,0.7 );
+  font-size:22px;
+  color:#4E342E;
+  padding:5px;
+  border-radius:20px;
+  word-spacing:5px;
+  letter-spacing:4px;
+  clear:both;
+  font-weight:bold;
+}
+.main-container .logo-area a img{
+     width:75px;
+	 height:auto;
+	 margin:50px 0px;
+	
+}
+.header-area h2{
+	font-size:50px;
+	font-weight:bold;
+	margin-bottom:30px;
+}
+.header-area p{
+	font-size:12px;
+	margin-bottom:80px;
+}
+.header-area .next-area a i{
+	width: 37px;
+    height: 37px;
+    font-size: 16px;
+    border: 1px solid white;
+    padding: 10px 10px;
+    border-radius: 50%;
+	color:white;
+	margin-top:30px;
+	margin-bottom:50px;
+	
+}
+
+
+/*===/// header area end \\\====*/
+
+
+/*===>>>about area start<<<====*/
+
+#about-me{
+transition-property: width;
+  transition-duration: 8s;
+  transition-timing-function: linear;
+  transition-delay: 5s;
+}
+.about-area{
+ background:url("images/pexels-tirachard-kumtanom-733852.jpg");
+ background-repeat:no-repeat;
+ background-size:cover;
+ width:100%;
+ over-flow:hidden;
+  
+  
+ 
+}
+
+.about-area .text{
+	 margin-bottom:70px;
+	 margin-top:30px;
+	 
+	}
+.about-area .text h1{
+     font-size: 58px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    color: #dc7d0d;
+}	
+	
+.about-area .text p{
+	display:block;
+    background:rgba(255, 245, 157,0.5); 
+	font-size:18px;
+	margin:20px 0px;
+	font-weight:500;
+	color:#b313d0;
+	padding:5px;
+	border-radius:20px;
+}
+.about-area h2{
+	font-size:40px;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-bottom:15px;
+}
+.about-area .about-work{
+    width:90%;
+	margin:auto;
+}
+.about-area .about-service{
+	
+   margin-top:25px;
+   margin-bottom:30px;
+}	
+.about-area .about-service h2{
+	font-size:15px;
+	font-weight:bold;
+}
+
+.about-area .carousol-area{
+  width:100%;
+  height:50%;
+}
+
+
+
+
+
+/*===/// about area end \\\====*/
+
+
+/*===>>>protfolio area start<<<====*/
+
+.protfolio{
+  background:url(images/pexels-pixabay-235985.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.protfolio h2{
+   font-size:44px;
+   font-weight:bold;
+   margin:20px;
+   padding-top:60px;
+   text-transform:uppercase;
+   color:#18c2e8;
+}
+.protfolio .nav-ber{
+	
+	margin-bottom:25px;
+}
+.protfolio .nav-ber .nav a{
+  color:white;
+  margin:10px;
+}
+.protfolio .row a img{
+	width:200px;
+	height:210px;
+	
+}
+.protfolio .row a h5{
+	color:#fff81b;
+	
+}
+
+.protfolio .prot-chap{
+	width:70%;
+	margin:auto;
+}
+
+.protfolio .baton{
+margin:40px;
+padding:12px 40px;
+}
+
+
+
+
+/*===/// protfolio area end \\\====*/
+
+
+
+/*====>>>photography area start<<<=====*/
+.photography{
+background:url("images/download 6 (5).jpg");
+ background-repeat:no-repeat;
+ background-size:cover;
+ width:100%;
+ 
+  
+
+}
+.photography h2{
+  font-size:44px;
+  margin:50px 0px 20px 0px;
+}
+.photography p{
+    font-size:18px;
+}
+.photography .photo-gallary {
+  margin-bottom:30px;
+}
+.photography .photo-gallary a img{
+    width:250px;
+	height:260px;
+}
+.photography .photo-bap{
+   margin-bottom:50px;
+}
+.photography .photo-chap {
+	width:80%;
+	margin:auto;
+	margin-top:30px;
+}
+.photography .baton {
+	margin:0 0 30px 0px;
+}
+
+
+/*====/// photography area end \\\=====*/
+
+
+
+/*====>>>subcribe area start<<<=====*/
+
+.subcribe-area{
+	background:url(images/pexels-moose-photos-1037996.jpg);
+	background-repeat:no-repeat;
+    background-size:cover;
+	background-position: center;
+}
+.subcribe-area .font a i{
+    font-size:60px;
+	margin:150px 0px 10px 0px;
+	color:teal;
+	 background:rgba(186, 104, 200,0.5);
+	 display:inline-block;
+	 padding:5px;
+	  border-radius:20px;
+}
+.subcribe-area p{
+display:inline-block;
+  color:white;
+  padding:5px;
+  border-radius:20px;
+  background:rgba(186, 104, 200,0.5);
+}
+.subcribe{
+	width:50%;
+	margin:auto;
+	margin-bottom:50px;
+	margin-top:230px;
+	padding-bottom:80px;
+}
+
+
+
+/*====/// subcribe area end \\\=====*/
+
+
+/*====>>>footer area start<<<=====*/
+    
+footer{
+	
+	padding:40px 0px;
+	background:rgba(0,128,128,0.4);
+
+}
+footer .icon-area i{
+   font-size:30px;
+   margin:30px 15px 40px 15px;
+}
+footer .copy-right-area h5{
+	font-weight:bold;
+}
+
+
+
+
+/*====/// footer area end \\\=====*/
+
+
+
+
+
+
